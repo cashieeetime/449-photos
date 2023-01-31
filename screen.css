@@ -1,6 +1,17 @@
 body {
     background: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 5% auto 0;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: center;
+}
+
+img {
+    width: 25%;
 }
 
 main {
@@ -8,6 +19,18 @@ main {
     width: 80%;
 }
 
-img {
-    width: 100%;
+.imgrow {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: left;
+    gap: 5%;
+}
+
+.imgcolumn {
+    display: flex;
+    flex-flow: column wrap;
+    flex: auto;
+    justify-content: left;
+    column-gap: 5%;
 }
