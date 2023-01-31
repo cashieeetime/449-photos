@@ -1,1 +1,13 @@
-/* Add screen styles below */
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+img {
+    width: 100%;
+}
