@@ -4,14 +4,8 @@ body {
     margin: 5% auto 0;
 }
 
-main {
-    margin: 0 auto;
-    width: 100%;
-    position: center;
-}
-
 img {
-    width: 25%;
+    width: 30%;
 }
 
 main {
@@ -24,6 +18,7 @@ main {
     flex-direction: row;
     flex: auto;
     justify-content: left;
+    align-items: flex-start;
     gap: 5%;
 }
 
@@ -32,5 +27,4 @@ main {
     flex-flow: column wrap;
     flex: auto;
     justify-content: left;
-    column-gap: 5%;
 }
